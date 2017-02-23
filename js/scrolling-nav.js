@@ -10,7 +10,7 @@
             $(window).scroll(function() {
 
                 // set distance user needs to scroll before we start fadeIn
-                if ($(this).scrollTop() > 200) {
+                if ($(this).scrollTop() > 250) {
                     $('.navbar').fadeIn();
                 } else {
                     $('.navbar').fadeOut();
@@ -23,7 +23,7 @@
 
 //jQuery to collapse the navbar on scroll
 $(window).scroll(function() {
-    if ($(".navbar").offset().top > 30) {
+    if ($(".navbar").offset().top > 50) {
         $(".navbar-fixed-top").addClass("top-nav-collapse");
     } else {
         $(".navbar-fixed-top").removeClass("top-nav-collapse");
